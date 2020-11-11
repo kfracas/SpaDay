@@ -69,3 +69,26 @@ body {
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
 }
+
+.colorOptions {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    float: left;
+}
+
+#color1 {
+    background-color: deeppink;
+}
+
+#color2 {
+    background-color: orangered;
+}
+
+#color3 {
+    background-color: antiquewhite;
+}
+
+#color4 {
+    background-color: darkred;
+}
