@@ -1,0 +1,14 @@
+﻿<link rel="stylesheet" type="text/css" href="~/css/site.css">
+
+
+<form method="post">
+    <label>Username: <input name="username" type="text" value="@ViewBag.username"/></label><br />
+    <label>Email: <input name="email" type="email" value="@ViewBag.email"/></label><br />
+    <label>Password: <input name="password" type="password" /></label><br />
+    <label>Confirm Password: <input name="verify" type="password" /></label><br />
+    <input type="submit" value="Submit" />
+    @if (ViewBag.noMatch == true)
+    {
+        <p id="error">@ViewBag.error</p>
+    }
+</form>
